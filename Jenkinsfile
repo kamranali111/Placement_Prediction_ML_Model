@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_EC2_INSTANCE = '3.87.188.97' // Updated EC2 instance's IP
+        AWS_EC2_INSTANCE = '44.212.3.241' // Updated EC2 instance's IP
         DOCKER_HUB_CREDENTIAL_ID = 'docker-cred' // Jenkins credentials ID for Docker Hub
         DOCKER_IMAGE_NAME = 'kamran111/placement_prediction_model' // Update to your Docker image name
         TAG = 'latest' // Docker image tag
