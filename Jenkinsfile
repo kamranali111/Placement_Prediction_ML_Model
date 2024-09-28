@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/atharabbas993/Placement_Prediction_ML_Model.git' // Updated repository URL
+                git branch: 'main', url: 'https://github.com/kamranali111/Placement_Prediction_ML_Model.git' // Updated repository URL
             }
         }
 
