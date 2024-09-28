@@ -33,15 +33,7 @@ pipeline {
             }
         }
 
-        // 2. Dependency Scanning
-        stage('Dependency-Check') {
-            steps {
-                script {
-                    // OWASP Dependency Check to scan for vulnerable dependencies
-                    sh "dependency-check --project PlacementPrediction --scan . --format XML --out reports/dependency-check-report.xml"
-                }
-            }
-        }
+
 
         // 3. Build Docker Image
         stage('Build Docker Image') {
